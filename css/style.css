@@ -509,6 +509,9 @@ body{
 
 .modal{
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         height: 584px;
         width: 408px;
         padding-left: 24px;
@@ -517,4 +520,30 @@ body{
         padding-bottom: 24px;
         border-radius: 4px;
         background-color: #FCFCFC;
+}
+
+.close-btn{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        line-height: 0;
+        padding: 0;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: #E7E9FC;
+        fill: #2E2F42;
+}
+
+.close-btn:hover,
+.close-btn:focus{
+        background-color:#404BBF;
+        fill: #FFFFFF;
+}
+
+
+.close-btn-icon{
+        transition: fill 250ms ease-out;
 }
