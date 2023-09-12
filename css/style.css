@@ -609,6 +609,18 @@ body{
         margin-bottom: 8px;
 }
 
+.review-form-checkbox-label{
+        color: #8E8F99;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1,17;
+        letter-spacing: 0.03em;
+}
+
+.review-form-privacy-link{
+        color: #4D5AE5;
+}
+
 .review-form-comment{
         width: 100%;
         height: 120px;
@@ -635,3 +647,45 @@ body{
         border-color: #4D5AE5;
         outline: transparent;
 }
+
+
+.review-form-own-checkbox{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+        border-radius: 2px;
+        border: 1px solid rgba(46, 47, 66, 0.40);
+        cursor: pointer;
+        fill: none;
+        margin-right: 8px;
+}
+
+.review-form-checkbox:checked
+ + .review-form-checkbox-label
+  > .review-form-own-checkbox{
+        background-color: #404BBF;
+}
+
+
+.review-form-checkbox-label{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1,17;
+        letter-spacing: 0.03em;
+        color: #8E8F99;
+}
+
+.review-form-privacy-link{
+        color: #4D5AE5;
+}
+
+.review-form-checkbox:focus
+  +.review-form-checkbox-label
+  >.review-form-own-checkbox{
+        /* outline: 2px solid rgba(0, 0, 255, 0.5); */
+        border-color: #4D5AE5;
+ }
+
