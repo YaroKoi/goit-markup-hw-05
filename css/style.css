@@ -528,8 +528,31 @@ body{
 }
 
 
-.subscribe-button{
+.subscribe-btn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
         margin-left: 24px;
+        background-color: #4D5AE5;
+        color: #fff;
+        display: block;
+        cursor: pointer;
+        border-radius: 4px;
+        min-width: 165px;
+        height: 40px;
+        border: none;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 8px 24px;  
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+        background-color: #404BBF;
+}
+
+.subscribe-icon{
+        margin-left: 16px;
 }
 
 
@@ -726,7 +749,7 @@ body{
 .review-form-checkbox:focus
   +.review-form-checkbox-label
   >.review-form-own-checkbox{
-        /* outline: 2px solid rgba(0, 0, 255, 0.5); */
+        outline: 2px solid rgba(0, 0, 255, 0.5);
         border-color: #4D5AE5;
  }
 
