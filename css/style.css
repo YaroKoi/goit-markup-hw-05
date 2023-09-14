@@ -629,8 +629,8 @@ body{
         border: none;
 }
 
-.review-form-field-wrapper{
-        margin-bottom: 16px;
+.review-form-input-wrapper{
+        margin-bottom: 8px;
 }
 
 
@@ -781,7 +781,7 @@ body{
  }
 
  .review-form-checkbox-wrapper{
-        margin-bottom: 24px;
+        margin-bottom: 16px;
         margin-top: 16px;
  }
 
