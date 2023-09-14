@@ -495,7 +495,7 @@ body{
 }
 
 
-.subscribe-container{
+/* .subscribe-container{
         margin-left: 80px;
 }
 
@@ -553,7 +553,14 @@ body{
 
 .subscribe-icon{
         margin-left: 16px;
+} */
+
+.subscribe-form{
+        display: flex;
+        gap: 24px;
 }
+
+
 
 
 
