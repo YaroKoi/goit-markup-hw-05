@@ -495,6 +495,10 @@ body{
 }
 
 
+.subscribe-container{
+        margin-left: 80px;
+}
+
 .subscribe-text{
         font-size: 16px;
         font-weight: 500;
@@ -526,6 +530,25 @@ body{
 
 .subscribe-input::placeholder{
         color #ffffff;
+}
+
+.subscribe-btn{
+        min-width: 165px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4D5AE5;
+        border: none;
+        border-radius: 4px;
+        gap: 16px;      
 }
 
 
