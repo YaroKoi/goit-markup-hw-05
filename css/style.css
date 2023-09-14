@@ -495,16 +495,6 @@ body{
 }
 
 
-/* .subscribe-container{
-        margin-left: 80px;
-}
-
-
-.subscribe-list{
-        display: flex;
-}
-
-
 .subscribe-text{
         font-size: 16px;
         font-weight: 500;
@@ -514,52 +504,29 @@ body{
         margin-bottom: 16px;
 }
 
-.subscribe-item{
-        list-style-type: none;
-}
-
-.review-form-subscribe{
-        width: 264px;
-        height: 40px;
-        border-radius: 4px;
-        border: 1px solid #FFF;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        background-color: transparent;
-}
-
-
-.subscribe-btn {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        margin-left: 24px;
-        background-color: #4D5AE5;
-        color: #fff;
-        display: block;
-        cursor: pointer;
-        border-radius: 4px;
-        min-width: 165px;
-        height: 40px;
-        border: none;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        padding: 8px 24px;  
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-        background-color: #404BBF;
-}
-
-.subscribe-icon{
-        margin-left: 16px;
-} */
-
 .subscribe-form{
         display: flex;
         gap: 24px;
 }
 
+
+.subscribe-input{
+        width: 264px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        color: #ffffff;
+}
+
+.subscribe-input::placeholder{
+        color #ffffff;
+}
 
 
 
